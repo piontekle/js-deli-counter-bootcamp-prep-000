@@ -12,5 +12,5 @@ function nowServing(currentLine) {
     return "There is nobody waiting to be served!"
   } 
   var name = currentLine.shift()
-  return ""
+  return "Currently serving " + name + "."
 }

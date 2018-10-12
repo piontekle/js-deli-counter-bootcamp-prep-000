@@ -16,8 +16,5 @@ function currentLine(currentLine) {
   if (currentLine.length === 0) {
   return "The line is currently empty."
   }
-  var i = 0
-  do {
-    return "The line is currently: " + i + ". " + currentLine[i]
-  }
+  var string = `The line is currently `
 }

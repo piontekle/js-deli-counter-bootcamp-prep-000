@@ -1,5 +1,6 @@
 function takeANumber(currentLine, name) {
-  
+  position = currentLine.length + 1;
+  return "Welcome, " + name + ". You are number " + position + " in line.";
 }
 
 function nowServing(currentLine) {

@@ -19,6 +19,6 @@ function currentLine(currentLine) {
   var string = `The line is currently: 1. ${currentLine[0]}`
   
   for (let i = 1; i < currentLine.length; i++) {
-    
+    string = += `, ${i+1}. ${katzDeliLine[i]}`;
   }
 }
